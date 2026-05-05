@@ -1,6 +1,6 @@
 # To run this Streamlit app in Colab, you need to install Streamlit first.
 # This line should ideally be run once, or handled in a requirements.txt for actual deployment.
-!pip install streamlit
+pip install streamlit
 
 import streamlit as st
 import requests
