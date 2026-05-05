@@ -1,33 +1,14 @@
 import streamlit as st
-import requests
+from transformers import pipeline
 
-st.title("🤖 Hugging Face ML Sentiment Analyzer")
+st.title("🤖 Sentiment Analyzer")
 
-user_input = st.text_area("Enter text for sentiment analysis:")
+model = pipeline("sentiment-analysis")
 
-if st.button("Analyze Sentiment"):
-    if user_input:
+text = st.text_area("Enter text")
 
-        API_URL = "https://api-inference.huggingface.co/models/finiteautomata/bertweet-base-sentiment-analysis"
-        headers = {"Authorization": "Bearer YOUR_HF_TOKEN"}
-
-        try:
-            response = requests.post(API_URL, headers=headers, json={"inputs": user_input})
-
-            # 🔥 DEBUG için bunu ekle (çok önemli)
-            # st.write(response.status_code)
-            # st.write(response.text)
-
-            response.raise_for_status()
-            result = response.json()
-
-            st.subheader("Analysis Result:")
-
-            if isinstance(result, list) and result:
-                st.write(f"**Sentiment:** {result[0]['label']}")
-                st.write(f"**Confidence:** {result[0]['score']:.2f}")
-            else:
-                st.write(result)
-
-        except Exception as e:
-            st.error(f"Hata: {e}")
+if st.button("Analyze"):
+    if text:
+        result = model(text)[0]
+        st.write("Sentiment:", result["label"])
+        st.write("Score:", round(result["score"], 3))
