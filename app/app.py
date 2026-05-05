@@ -7,12 +7,17 @@ user_input = st.text_area("Enter text for sentiment analysis:")
 
 if st.button("Analyze Sentiment"):
     if user_input:
-        API_URL = "https://api-inference.huggingface.co/models/finiteautomata/bertweet-base-sentiment-analysis"
 
+        API_URL = "https://api-inference.huggingface.co/models/finiteautomata/bertweet-base-sentiment-analysis"
         headers = {"Authorization": "Bearer YOUR_HF_TOKEN"}
 
         try:
             response = requests.post(API_URL, headers=headers, json={"inputs": user_input})
+
+            # 🔥 DEBUG için bunu ekle (çok önemli)
+            # st.write(response.status_code)
+            # st.write(response.text)
+
             response.raise_for_status()
             result = response.json()
 
