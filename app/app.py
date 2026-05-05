@@ -7,7 +7,7 @@ user_input = st.text_area("Enter text for sentiment analysis:")
 
 if st.button("Analyze Sentiment"):
     if user_input:
-        API_URL = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
+        API_URL = "https://api-inference.huggingface.co/models/finiteautomata/bertweet-base-sentiment-analysis"
 
         headers = {"Authorization": "Bearer YOUR_HF_TOKEN"}
 
