@@ -99,13 +99,16 @@ The application is deployed on Hugging Face Spaces:
 
 👉 https://huggingface.co/spaces/ErdalX/nlp-sentiment-ecommerce-review-analysis
 
-📈 Key Learnings
+# 📈 Key Learnings
+
 Building end-to-end ML pipelines
 NLP model integration using Transformers
 Streamlit application development
 Data analysis and visualization (EDA)
 Deploying ML models in cloud environments
-🧠 System Workflow
+
+# 🧠 System Workflow
+
 1. User enters review text
 2. Streamlit UI sends request to model
 3. Transformer model processes input
@@ -113,11 +116,11 @@ Deploying ML models in cloud environments
 5. Result is displayed with confidence score
 
 
-👤 Author
-ERDAL ERDOĞAN --- Better Call Saul !!1
+# 👤 Author
+# ERDAL ERDOĞAN --- Better Call Saul !!1
 
-Data Science & AI Enthusiast
-Focus Areas: Machine Learning, NLP, AI Applications
+Data Science & AI Engineer
+Focus Areas: Machine Learning, NLP, AI Applications, Mathematician
 
 
 📌 Project Status
@@ -126,4 +129,4 @@ Focus Areas: Machine Learning, NLP, AI Applications
 ✔ Deployed
 ✔ Portfolio Ready
 ✔ Production-Level ML Application
-```
+
