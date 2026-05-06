@@ -131,8 +131,8 @@ Deploying ML models in cloud environments
 
 # ERDAL ERDOĞAN --- Better Call Saul !!
 
-Data Science & AI Engineer
-Focus Areas: Machine Learning, NLP, AI Applications, Mathematician
+- Data Scientist & AI Engineer
+- Focus Areas: Machine Learning, NLP, AI Applications, Mathematics
 
 
 # 📌 Project Status
