@@ -69,21 +69,29 @@ Used for both sentiment analysis and exploratory data analysis.
 
 
 User Input → Streamlit UI → Hugging Face Transformer Model → Sentiment Prediction → Output Display
+
+
 📊 Features
+
 Real-time sentiment prediction
 Interactive Streamlit dashboard
 Dataset overview and statistics
 Rating distribution visualization
 Clean and minimal UI
 Cloud deployment via Hugging Face Spaces
-📸 Application Screens
+
+
+
 🔍 Sentiment Analyzer
 Input any customer review
 Get instant sentiment prediction
+
 📊 EDA Dashboard
+
 Rating distribution
 Dataset overview metrics
 Sample review previews
+
 🚀 How to Run Locally
 # Clone repository
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
@@ -93,11 +101,14 @@ pip install -r requirements.txt
 
 # Run Streamlit app
 streamlit run streamlit_app.py
+
+
 🌍 Deployment
 
 The application is deployed on Hugging Face Spaces:
 
 👉 https://huggingface.co/spaces/ErdalX/nlp-sentiment-ecommerce-review-analysis
+
 
 # 📈 Key Learnings
 
@@ -117,13 +128,14 @@ Deploying ML models in cloud environments
 
 
 # 👤 Author
-# ERDAL ERDOĞAN --- Better Call Saul !!1
+
+# ERDAL ERDOĞAN --- Better Call Saul !!
 
 Data Science & AI Engineer
 Focus Areas: Machine Learning, NLP, AI Applications, Mathematician
 
 
-📌 Project Status
+# 📌 Project Status
 
 ✔ Completed
 ✔ Deployed
