@@ -83,16 +83,20 @@ Cloud deployment via Hugging Face Spaces
 
 
 🔍 Sentiment Analyzer
-Input any customer review
-Get instant sentiment prediction
+
+- Input any customer review
+- Get instant sentiment prediction
 
 📊 EDA Dashboard
 
-Rating distribution
-Dataset overview metrics
-Sample review previews
+- Rating distribution
+- Dataset overview metrics
+- Sample review previews
+
+----
 
 🚀 How to Run Locally
+
 # Clone repository
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 
@@ -112,11 +116,12 @@ The application is deployed on Hugging Face Spaces:
 
 # 📈 Key Learnings
 
-Building end-to-end ML pipelines
-NLP model integration using Transformers
-Streamlit application development
-Data analysis and visualization (EDA)
-Deploying ML models in cloud environments
+
+- Building end-to-end ML pipelines
+- NLP model integration using Transformers
+- Streamlit application development
+- Data analysis and visualization (EDA)
+- Deploying ML models in cloud environments
 
 # 🧠 System Workflow
 
